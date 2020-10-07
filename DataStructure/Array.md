@@ -4,7 +4,7 @@
 - 선형 자료구조의 한 종류.
 - 선언을 통해 메모리를 미리 할당받아 사용한다.
 - 자료형 크기의 저장공간이 배열 크기만큼 할당되어 메모리상에 순차적으로 생성된다.
-![배열의 메모리 할당 예시](https://media.geeksforgeeks.org/wp-content/uploads/array-2.png)
+![배열의 메모리 할당 예시](https://media.geeksforgeeks.org/wp-content/uploads/array-2.png)  
 (출처: GeeksforGeeks - https://www.geeksforgeeks.org/array-data-structure/)
 - 각 저장공간을 인덱스라고 부르며, 데이터와 인덱스가 1:1로 대응한다.
 - 한 배열에는 같은 자료형의 데이터만 저장하고 관리할 수 있다.
