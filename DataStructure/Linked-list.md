@@ -35,6 +35,56 @@
 2. 데이터를 관리하기 위한 추가 공간이 필요
     - 데이터 값 외에 다음 Node의 주소값을 저장하기 위한 메모리가 필요하다.
 
+### 구현
+```Java
+class MyList {
+  Node head;
+  int size;
+
+  public MyList() {
+    head = null;
+    size = 0;
+  }
+
+  private class Node {
+    private Node next;
+    private int data;
+
+    Node(int data) {
+      this.data = data;
+      next = null;
+    }
+  }
+
+  public void add(int data) {
+    Node newNode = new Node(data);
+    if(head == null) {
+      head = newNode;
+    } else {
+      Node temp = head;
+      while(temp.next != null) {
+        temp = temp.next;
+      }
+      temp.next = newNode;
+    }
+    size++;
+  }
+
+  public void delete() {
+      //TODO
+  }
+
+  public void show() {
+    Node node = head;
+    while(node.next != null) {
+      System.out.println(node.data);
+      node = node.next;
+    }
+    System.out.println(node.data);
+  }
+}
+```
+
 ## 정리
 - 데이터의 추가/삽입이나 삭제가 많이 필요한 상황에 적절한 자료구조.
 - 특정 데이터로 바로 접근이 필요하거나 검색이 많을 경우에는 효율적이지 않음.
