@@ -9,7 +9,7 @@
 - 데이터를 추가할 때 필요한 메모리를 새로 할당 사용한다.
 - 일반적으로 head라고 부르는 Node 혹은 포인터로 시작 Node를 관리하며 마지막 Node의 포인터에는 NULL값이 저장되어 마지막 노드라는 것을 표시한다.  
 (head로 생성한 연결 리스트를 관리하며 head의 정보를 잃어버리면 생성한 연결 리스트를 사용할 수 없다.)
-- 필요할 때 메모리를 할당받아 Node를 연결하여 구성하므로 메모리상에서 연속적이지 않다.
+- 필요할 때 메모리를 할당받아 Node를 연결하여 구성하므로 메모리상에서 연속적이지 않다.  
 ![메모리 할당 예시](https://w.namu.la/s/ef210f7b01f17258cc7060ba5b02e5b4b337bfb282cea34ac6a68c00ca740eea089b57d84f3f618e103bf8e54b2c698e1290d7bb489498073458f06da004e664984fc50b3eb6c93e683fc7652c12b4b19d6bf6da16590b610e777023c87b44f3dd60bc47905350a35f639c704dbd5aca)  
 (출처: 파이썬 알고리즘 인터뷰. 책만. p199 - <https://www.onlybook.co.kr/entry/algorithm-interview>)
 
