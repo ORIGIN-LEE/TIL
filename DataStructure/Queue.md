@@ -8,6 +8,9 @@
 - dequeue: 큐에서 가장 먼저 저장된(오래된) 데이터를 반환하고 삭제.  
 ![큐 삽입/삭제 연산 예시](https://upload.wikimedia.org/wikipedia/commons/d/d3/Fifo_queue.png)  
 (출처: Wikipedia - https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
+- 큐의 변형된 형태로 양 방향 모두에서 삽입/삭제 연산이 가능한 데크(Deque: Double-ended queue)가 있다.  
+![데크 예시](https://www.tutorialandexample.com/wp-content/uploads/2019/09/Deque-in-Java.png)  
+(출처: Tutorial And Example - <https://www.tutorialandexample.com/deque-in-java/>)
 
 ### 장점
 1. 데이터의 순차적인 접근
